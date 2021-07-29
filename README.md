@@ -9,7 +9,7 @@ An attempt at making a small Blog website.
     <img src="assets/icons/CultivationIcon_100x100px.svg" alt="Logo" width="100" height="100">
   </a>
 
-  <h3 align="center">Display Page</h3>
+  <h3 align="center">Blog</h3>
   
   <br />
   </p>
