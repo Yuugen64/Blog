@@ -96,4 +96,5 @@ Project Link: [https://github.com/Yuugen64](https://github.com/Yuugen64)
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 * [Othneildrew](https://github.com/othneildrew/Best-README-Template/blob/master/README.md) - For providing a great template for leveling up my README!
+* [Lama Dev](https://www.youtube.com/channel/UCOxWrX5MIdXIeRNaXC3sqIg) - Tutorial I used to get started.
 
