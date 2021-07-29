@@ -1,6 +1,7 @@
+/* ===== Basic Styling and Alignment ===== */
 .menuBar{
     width: 100%;
-    height: 50px;
+    height: 80px;
     background-color: White;
     position: sticky;
     top: 0;
@@ -13,11 +14,50 @@
 
 .left, .right{
     flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menuMediaIcon{
+    font-size: 40px;
+    margin-right: 10px;
+    color: #37667E;
+    cursor: pointer;
+}
+
+.menuSearchIcon{
+    font-size: 40px;
+    margin-right: 10px;
+    color: #37667E;
+    cursor: pointer;
+}
+
+.menuImage{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
 }
 
 .center{
     flex: 6;
 }
+
+
+
+/* ===== Child Element Arrangement ===== */
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* ========== Pallette ========== */

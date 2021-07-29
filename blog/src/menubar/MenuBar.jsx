@@ -1,15 +1,16 @@
 import "./menubar.css"
 import oasis from "./oasis.jpg"
 
+
 export default function MenuBar() {
 
     return (
         <div className="menuBar">
             <div className="left">
-            <i className="menuMediaIcon" class="fas fa-envelope"></i>
-            <i className="menuMediaIcon" class="fab fa-github"></i>
-            <i className="menuMediaIcon" class="fab fa-pinterest"></i>
-            <i className="menuMediaIcon" class="fab fa-youtube"></i>
+            <i className="menuMediaIcon fas fa-envelope"></i>
+            <i className="menuMediaIcon fab fa-github"></i>
+            <i className="menuMediaIcon fab fa-pinterest"></i>
+            <i className="menuMediaIcon fab fa-youtube"></i>
             </div>
 
 
@@ -33,7 +34,7 @@ export default function MenuBar() {
 
                 <p>Image goes here</p>
 
-                <i className="menuSearchIcon" class="fas fa-search"></i>
+                <i className="menuSearchIcon fas fa-search"></i>
             </div>
 
 
