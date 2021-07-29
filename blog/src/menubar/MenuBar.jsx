@@ -32,8 +32,6 @@ export default function MenuBar() {
                 alt=""
                 />
 
-                <p>Image goes here</p>
-
                 <i className="menuSearchIcon fas fa-search"></i>
             </div>
 

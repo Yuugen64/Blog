@@ -1,7 +1,7 @@
 /* ===== Basic Styling and Alignment ===== */
 .menuBar{
     width: 100%;
-    height: 80px;
+    height: 50px;
     background-color: White;
     position: sticky;
     top: 0;
@@ -18,21 +18,28 @@
     align-items: center;
     justify-content: center;
 }
+.center{
+    flex: 6;
+}
+
+
+
 
 .menuMediaIcon{
-    font-size: 40px;
+    font-size: 25px;
     margin-right: 10px;
     color: #37667E;
     cursor: pointer;
 }
+
+
 
 .menuSearchIcon{
-    font-size: 40px;
-    margin-right: 10px;
+    font-size: 18px;
+    margin-left: 15px;
     color: #37667E;
     cursor: pointer;
 }
-
 .menuImage{
     height: 40px;
     width: 40px;
@@ -40,10 +47,22 @@
     object-fit: cover;
 }
 
-.center{
-    flex: 6;
+
+
+.menuList{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
+.menuListItem{
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;
+}
 
 
 /* ===== Child Element Arrangement ===== */
