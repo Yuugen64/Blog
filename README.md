@@ -40,6 +40,8 @@ An attempt at making a small Blog website.
 
 ### Created With
 * VS Code
+* ReactJS
+* NodeJS
 
 
 
