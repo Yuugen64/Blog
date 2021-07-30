@@ -1,0 +1,71 @@
+/* ===== Entire page & Content Container ===== */
+.postPage{
+    flex: 9;
+}
+.postPageContainer{
+    padding: 20px;
+    padding-right: 0px;;
+}
+
+
+
+/* ===== Post Image & Title ===== */
+.postPageImage{
+    width: 100%;
+    height: 500px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+.postPageTitle{
+    text-align: center;
+    margin: 10px;
+
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+
+
+/* ===== Edit and Delete Icons/Container ===== */
+.postPageEditContainer{
+    float: right;
+    font-size: 18px;
+}
+
+.postPageIcon{
+    margin-left: 10px;
+    cursor: pointer;
+}
+.postPageIcon:first-child{
+    color: teal;
+}
+.postPageIcon:last-child{
+    color: tomato;
+}
+
+
+
+.postPageInfo{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 500;
+    color: #b39656;
+}
+
+
+
+.postPageContent{
+    color: #666;
+    font-size: 18px;
+    line-height: 25px;
+}
+.postPageContent::first-letter{
+    margin-left: 25px;
+    font-size: 30px;
+    font-weight: 700;
+}
