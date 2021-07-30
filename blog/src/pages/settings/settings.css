@@ -1,0 +1,15 @@
+.settings{
+    display: flex;
+}
+
+.settingsWrapper{
+    flex: 9;
+    padding: 20px;
+}
+
+.settingsProfilePicture{
+    width: 70%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
