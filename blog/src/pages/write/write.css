@@ -1,0 +1,77 @@
+.write{
+    padding-top: 50px;  
+}
+
+.writeForm{
+    position: relative;
+}
+
+.writeFormGroup{
+    margin-left: 150px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+/* ===== The Icon styling that took the place of the file upload input ===== */
+.writeUploadIcon{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: #666;
+    cursor: pointer;
+}
+
+
+
+/* ===== This styling affects the Title input, AND the Textarea input ===== */
+.writeInput{
+    font-size: 30px;
+    border: none;
+    padding: 20px;
+    width: 70vw;
+
+}
+/* Hides the outline after clicking on title box or textarea*/
+.writeInput:focus{
+    outline: none;
+}
+
+.writeText{
+    font-size: 20px;
+    height: 100vh;
+}
+
+
+
+/* ===== The 'Post' Button styling ===== */
+.writeSubmitButton{
+    position: absolute;
+    top: 20px;
+    right: 50px;
+
+    color: white;
+    background-color: teal;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+
+/* ===== The Image placeholder styling for our post image ===== */
+.writeImage{
+    margin-left: 150px;
+    width: 70vw;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
