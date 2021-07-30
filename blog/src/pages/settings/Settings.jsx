@@ -15,20 +15,23 @@ export default function Settings() {
 
                 <form className="settingsForm">
                     
-                    
+
                     <label>Profile Picture</label>
+                    {/* This div has the className so we can style the container and then use inheritence to style the child img with '> img' */}
                     <div className="settingsProfilePicture">
                         <img 
                         src={oasis} 
                         alt="" 
                         />
 
+                        <label htmlFor="fileInput">
+                            <i className="settingsProfileIcon fas fa-user-circle"></i>
+                        </label>
+
                     </div>
 
 
-                    <label htmlFor="fileInput">
-                            <i className="settingsUploadIcon fas fa-user-circle"></i>
-                        </label>
+                    
 
                         <input type="file" id="fileInput" style={{display: "none"}} />
 
@@ -41,7 +44,7 @@ export default function Settings() {
                         <label>password</label>
                         <input type="password" placeholder="password" />
 
-                        <button className="settingsSubmit">Update</button>
+                        <button className="settingsSubmitButton">Update</button>
                 </form>
 
             </div>
