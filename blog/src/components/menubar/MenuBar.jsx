@@ -30,9 +30,11 @@ export default function MenuBar() {
                     <li className="menuListItem">
                         <Link className="link" to="/contact">CONTACT</Link>
                     </li>
+                    
                     <li className="menuListItem">
-                        <Link className="link" to="/write">WRITE</Link>
+                        {user && <Link className="link" to="write">WRITE</Link>}
                     </li>
+                    
                     <li className="menuListItem">
                         {user && "LOGOUT"}
                     </li>
@@ -49,10 +51,15 @@ export default function MenuBar() {
                 alt=""
                 />
                 ):(
-                    <>
-                    <Link className="link" to="/login">LOGIN</Link>
-                    <Link className="link" to="/register">REGISTER</Link>
-                    </>
+                    <ul className="menuList">
+                        <li className="menuListItem">
+                            <Link className="link" to="/login">LOGIN</Link>
+                        </li>
+
+                        <li className="menuListItem">
+                            <Link className="link" to="/register">REGISTER</Link>
+                        </li>
+                    </ul>
                 )}
                 
 
