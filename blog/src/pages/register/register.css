@@ -8,7 +8,7 @@
         rgba(255,255,255,0.5),
         rgba(255,255,255,0.5)
         ), 
-        url("TechnologyPieces_4866x3647.jpg");
+        url("Notebook_5472x3648.jpg");
     background-size: cover;
 }
 .registerTitle{
@@ -34,7 +34,7 @@
 
 .registerButton{
     margin-top: 20px;
-    background-color: green;
+    background-color: teal;
     cursor: pointer;
     border: none;
     color: white;
@@ -46,7 +46,7 @@
     position: absolute;
     top: 60px;
     right: 20px;
-    background-color: teal;
+    background-color: green;
     cursor: pointer;
     border: none;
     padding: 10px;

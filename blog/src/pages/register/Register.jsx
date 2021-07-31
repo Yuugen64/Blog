@@ -7,6 +7,10 @@ export default function Register() {
             <span className="registerTitle">Register</span>
 
             <form className="registerForm">
+
+                <label>Username</label>
+                <input className="registerInput" type="text" placeholder="Enter your username..." />
+
                 <label>Email</label>
                 <input className="registerInput" type="text" placeholder="Enter your email" />
 
