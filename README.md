@@ -91,6 +91,7 @@ No prerequisites.
 - [012-0.0.8]:: Create Post Page >> Roughed out the page where posts can be pieced together.
 - [013-0.0.8]:: Update Settings Page >> Started working on a page where the user can update their account settings.
 - [014-0.0.8]:: Settings Page >> Finished roughing out the update user settings page.
+- [015-0.0.9]:: Login / Register Pages >> Roughed out a Login page and then Duplicated and modified it to also serve as the register page.
 
 
 ### Main Branch:
