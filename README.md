@@ -93,6 +93,8 @@ No prerequisites.
 - [014-0.0.8]:: Settings Page >> Finished roughing out the update user settings page.
 - [015-0.0.9]:: Login / Register Pages >> Roughed out a Login page and then Duplicated and modified it to also serve as the register page.
 
+7.31.21
+- [016-0.0.9]:: React Router DOM >> In the process of connecting the router links as well as modifying the behavior of the site based on user login status (hiding login profile picture if no user, showing login page if not logged in when attempting to author, etc).
 
 ### Main Branch:
 - Where the core project is located.
