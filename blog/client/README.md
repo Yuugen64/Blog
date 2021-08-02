@@ -97,6 +97,9 @@ No prerequisites.
 - [016-0.0.9]:: React Router DOM >> In the process of connecting the router links as well as modifying the behavior of the site based on user login status (hiding login profile picture if no user, showing login page if not logged in when attempting to author, etc).
 - [017-0.1.0]:: Basic Nav + Styling Roughed >> Managed to get the basic functionality and routing established.
 
+8.2.21
+- [018-0.1.0]:: File Hierarchy >> I corrected a hierarchy issue whereby there were two folders containing Node Modules. I removed the most external folder and re-verified that the app still runs after reinstalling react-router-dom.
+
 ### Main Branch:
 - Where the core project is located.
 
