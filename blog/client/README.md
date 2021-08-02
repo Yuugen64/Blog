@@ -99,6 +99,7 @@ No prerequisites.
 
 8.2.21
 - [018-0.1.0]:: File Hierarchy >> I corrected a hierarchy issue whereby there were two folders containing Node Modules. I removed the most external folder and re-verified that the app still runs after reinstalling react-router-dom.
+- [019-0.1.1]:: Express Server + DB Setup >> Created a simple Express server and verified that it can be started and runs correctly. Installed nodemon for realtime change reflection on the server. Created a small DB in MongoDB Atlas, set myself up as the admin of the DB, then added the necessary code for the Express server to actually connect to the DB.
 
 ### Main Branch:
 - Where the core project is located.
