@@ -3,15 +3,21 @@ const app = express();
 const dotenv = require("dotenv");
 const mongoose = require("mongoose");
 
-dotenv.config();
+const authRoute = require("./routes/auth");
 
-mongoose.connect(process.env.MONGO_URL, {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-    useCreateIndex: true,
-})
-.then(console.log("[MongoDB]:: CONNECTED"))
-.catch((err) => console.log(err));
+dotenv.config();
+app.use(express.json());
+
+mongoose
+    .connect(process.env.MONGO_URL, {
+        useNewUrlParser: true,
+        useUnifiedTopology: true,
+        useCreateIndex: true,
+    })
+    .then(console.log("[MongoDB]:: CONNECTED"))
+    .catch((err) => console.log(err));
+
+app.use("/api/auth", authRoute);
 
 //Listen on port number
 app.listen("5000" , () => {
