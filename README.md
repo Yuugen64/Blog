@@ -102,6 +102,9 @@ No prerequisites.
 - [019-0.1.1]:: Express Server + DB Setup >> Created a simple Express server and verified that it can be started and runs correctly. Installed nodemon for realtime change reflection on the server. Created a small DB in MongoDB Atlas, set myself up as the admin of the DB, then added the necessary code for the Express server to actually connect to the DB.
 - [020-0.1.2]:: Routing >> Spent a considerable amount of time attempting to establish and test a single route for the app. Managed to get the auth route working with Postman and properly sending/receiving JSON through the express server.
 
+8.30.21
+- [021-0.1.3]:: REGISTER & LOGIN routes >> Spent a few weeks trying to better understand routing. Managed to get a Register and Login routes correctly sending data through postman to MongoDB Atlas. Also implemented hasing to obfuscate passwords in the database and took care to make sure that the passwords were filtered out in JSON responses."
+
 ### Main Branch:
 - Where the core project is located.
 
